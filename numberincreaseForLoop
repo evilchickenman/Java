@@ -1,0 +1,24 @@
+//*****************************************************************
+//
+//                                             LAB #4
+// Name: 
+// Due-Date: 
+// PROGRAM-NAME: Lab 4.1
+// This program will print integers starting with 8 and increasing by 3.
+//*****************************************************************
+
+
+public class Lab41 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        for( int i = 8; i <= 23 ; i+=3) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+       
+    }
+    
+}
