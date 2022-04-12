@@ -1,0 +1,30 @@
+//***************************************
+//COSC 240            LAB #2
+//Program Name: Lanterns
+//Prints out "Lantern" figure via methods while elimination redundancy
+package lanterns;
+
+public class Lanterns {
+    
+    public static void main(String[] args) {
+        top();
+        top();
+        line();
+        thirteenstar();
+        top();
+        top();
+        fivestar();
+        line();
+        line();
+        fivestar();
+        fivestar();
+    }
+    public static void fivestar() {
+        System.out.println("    *****");
+    }
+    public static void ninestar() {
+        System.out.println("  *********");
+    }
+    public static void thirteenstar() {
+        System.out.println("*************");
+    }
