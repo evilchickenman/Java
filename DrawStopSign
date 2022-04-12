@@ -1,0 +1,55 @@
+/******************************************************************************
+
+
+
+*******************************************************************************/
+public class Main
+{
+
+    public static void main(String[] args) {
+        hexagon();
+        System.out.println();
+        hexagonbottom();
+        line();
+        System.out.println();
+        hexagontop();
+        stop();
+        hexagonbottom();
+        System.out.println();
+        hexagontop();
+        line();
+    }
+    public static void hexagon() {
+     // Draws hexagon
+     System.out.println("  _____");
+     System.out.println(" /     \\");
+     System.out.println("/       \\");
+     System.out.println("\\       /");
+     System.out.println(" \\_____/");
+    }
+    public static void hexagontop() {
+     // Draw hexagon top.
+     System.out.println("  _____");
+     System.out.println(" /     \\");
+     System.out.println("/       \\");
+     
+    }
+    public static void hexagonbottom() {
+     // Draws hexagon bottom.
+     System.out.println("\\       /");
+     System.out.println(" \\_____/");
+    }
+    public static void line() {
+     //Draws Line.
+     System.out.println("+--------+");
+     
+    }
+    public static void stop() {
+     //Draws Stop.
+     System.out.println("|  STOP  |");
+     
+    }
+}
+
+    
+
